@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestel hier!</title>
+    <link rel="stylesheet" href="CSS/order.css">
+</head>
+
+<body>
+    <nav>
+        <img src="./Images/PikMe_Logo.png" alt="pikMe-logo">
+        <div>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="order.html">Bestellen</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Bestel hier!</h1>
+    </header>
+
+    <main>
+
+    <div class="container">  <!-- */heb het veranderd naar een div. IS  -->
+            <h2>1. Uw gegevens</h2>
+            <form class="form" action="thanksForOrdering.html">
+                <div class="column">
+                    <div class="textfield">
+                        <label for="firstname">Voornaam</label>
+                        <input type="text" placeholder="Chad" required id="firstname">
+                    </div>
+                    <div class="textfield">
+                        <label for="lastname">Achternaam</label>
+                        <input type="text" placeholder="Champion" required id="lastname">
+                    </div>
+                </div>
+                <div class="textfield">
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="yoshi@gmail.com" required id="email">
+                </div>
+                <div class="column">
+                    <div class="textfield">
+                        <label for="adress">Adress</label>
+                        <input type="text" placeholder="Midgard 18" required id="adress">
+                    </div>
+                    <div class="textfield">
+                        <label for="birthday">Geboortedatum</label>
+                        <input type="date" name="birthday" required id="birthday">
+                    </div>
+                </div>
+
+                <div class="selection-box">
+                    <label>Kies welk model je wilt!</label>
+                    <select>
+                        <option hidden>kies uit</option>
+                        <option>kip</option>
+                        <option>robot</option>
+                        <option>Pikmin</option>
+                        <option>Kirby</option>
+                    </select>
+                </div>
+
+                <div class="payment">
+                    <h2>2. Betaalmethode</h2>
+                    <div class="selectpayment">
+                        <input type="radio" id="check-iDEAL" name="options" required>
+                        <label for="check-iDEAL">iDEAL</label>
+                        <div class="selection-box-2">
+                            <select>
+                                <option hidden>kies uit</option>
+                                <option>ING</option>
+                                <option>ABN AMRO</option>
+                                <option>Rabobank</option>
+                                <option>SNS</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="select">
+                        <input type="radio" id="check-creditcard" name="options" required>
+                        <label for="check-creditcard">creditcard</label>
+                    </div>
+                    <div class="select">
+                        <input type="radio" id="check-other" name="options" required>
+                        <label for="check-other">Paypal</label>
+                    </div>
+                </div>
+                
+
+                <div class="newsletter">
+                    <h2>3. Inschrijven voor aanbieding?</h2>
+                    <div class="checking">
+                        <input type="radio" id="check-yes" name="selection" required>
+                        <label for="check-yes">ja</label>
+                    </div>
+                    <div class="checking">
+                        <input type="radio" id="check-no" name="selection" required>
+                        <label for="check-no">nee</label>
+                    </div>
+                </div>
+
+                <div class="agreement">
+                    <h2>4. Overig</h2>
+                    <input type="checkbox" name="voorwaarden" required id="check">
+                    <label for="check">Ik ga akkoord met de voorwaarden.</label>
+                </div>
+                <div>
+                    <button class="redirect-button" type="submit">Bestellen</button>
+                </div>
+            </form>
+    </div>
+    </main>
+
+    <footer>
+        <div>
+            <img src="./Images/PikMe_Logo.png" alt="pikMe-logo">
+            <div class="credits">
+                <a href="link">De voordelen van PikMe</a>
+                <a href="link">Nieuws</a>
+                <a href="link">Werken bij PikMe</a>
+                <a href="link">PikMe & duurzaamheid</a>
+                <a href="link">De PikMe App</a>
+                <a href="link">Bedrijfsgegevens</a>
+            </div>
+        </div>
+            <h4>Copright 2024 @PikMe</h4>
+    </footer>
+
+</body>
+
+</html>
