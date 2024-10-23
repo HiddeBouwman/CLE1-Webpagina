@@ -173,6 +173,8 @@ section {
 
 .guide img {
     width: 12vw;
+    border: 0 hidden var(--colors-black);
+    border-radius: 50%;
 }
 
 .left {
