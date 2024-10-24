@@ -253,7 +253,7 @@ footer img {
     header {
         flex-direction: column;
         font-size: 1.3rem;
-        height: 120vw;
+        height: 100vh;
         background-size: 200vh;
     }
     section {

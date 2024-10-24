@@ -81,6 +81,7 @@ section {
     justify-content: center;
     padding: 0 1vw;
     margin: 5vh 2vw;
+    height: 12vh;
 }
 
 .image img {
